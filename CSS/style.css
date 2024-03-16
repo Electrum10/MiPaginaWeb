@@ -1,0 +1,30 @@
+#Inicio {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+}
+
+
+
+.merriweather-sans-header-title {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.ImagenPrincipal {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+body {
+    background-color: lightblue;
+}
