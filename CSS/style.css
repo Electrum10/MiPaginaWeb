@@ -2,7 +2,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 10px;
+        padding: 20px;
 }
 
 #Contexto {
@@ -12,9 +12,9 @@
     border-style: solid;
     border-width: 5px;
     border-color: black;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     height: auto;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -49,16 +49,22 @@ body {
 }
 
 h2 {
+    
     text-align: center;
     font-size: 30px;
     font-family: "Merriweather Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    margin-top: 40px; 
+    margin-top: 50px; 
     background: #889ccf; 
-    margin: 0 10 25px; 
+    margin: auto; 
     overflow: hidden; 
     padding: 20px; 
     border-radius: 35px 0px 35px 0px;  
     border: 2px solid #5878ca; 
+    height: auto;
+    width: 80%;
+    justify-content: center;
+    
+    
 }
