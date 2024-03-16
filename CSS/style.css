@@ -49,23 +49,33 @@ body {
 }
 
 h2 {
-    
-    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: auto;
     font-size: 30px;
     font-family: "Merriweather Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
-    margin-top: 50px; 
     background: #889ccf; 
-    margin: auto; 
-    overflow: hidden; 
     padding: 20px; 
     border-radius: 35px 0px 35px 0px;  
     border: 2px solid #5878ca; 
     height: auto;
     width: 80%;
-    justify-content: center;
-    
-    
-    
+    margin: 30px auto;
+}
+#foto {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 500;
+    margin-top: auto; 
+    background: #eef743;  
+    overflow: hidden; 
+    padding: 15px; 
+    border-radius: 35px 35px 35px 35px;  
+    border: 2px solid #5878ca; 
+    height: auto;
+    width: auto;
+    gap: auto;
+    margin: 25px;
 }
