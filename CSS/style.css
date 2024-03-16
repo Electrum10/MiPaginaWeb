@@ -2,10 +2,26 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
 }
 
-
+#Contexto {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
 
 .merriweather-sans-header-title {
     font-family: "Merriweather Sans", sans-serif;
@@ -22,7 +38,10 @@
 }
 
 .fa-brands {
-    font-size: 20px;
+    font-size: 25px;
+    margin: 4px;
+    color: black;
+    text-decoration: none;
 }
 
 body {
