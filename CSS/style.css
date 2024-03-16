@@ -54,7 +54,11 @@ h2 {
     font-family: "Merriweather Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    margin-top: 40px;
-    
-    
+    margin-top: 40px; 
+    background: #889ccf; 
+    margin: 0 10 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px;  
+    border: 2px solid #5878ca; 
 }
