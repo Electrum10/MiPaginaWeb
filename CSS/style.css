@@ -93,4 +93,5 @@ h2 {
     border: 3px solid black; 
     width: 70%;
     margin: 23px auto;
+    display: block;
 }
