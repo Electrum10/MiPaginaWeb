@@ -3,6 +3,8 @@
         align-items: center;
         text-align: center;
         padding: 20px;
+        text-decoration: none;
+
 }
 
 #Contexto {
@@ -33,6 +35,9 @@
   font-size: 40px;
 }
 
+.SinSubrayar {
+    text-decoration: none !important;
+}
 
 .SubNombre {
     font-family: "Wix Madefor Text", sans-serif;
@@ -55,19 +60,22 @@
 }
 
 .fa-brands {
+    text-decoration: none;
     font-size: 25px;
     margin: 4px;
     color: black;
-    text-decoration: none;
+    text-decoration: none !important;
     margin-top: 25px;
 }
 
 body {
+    text-decoration: none;
     background-color: #d8dddb;
     text-align: center;
 }
 
 h2 {
+    text-decoration: none;
     text-align: center;
     font-size: 45px;
     font-family: "Merriweather Sans", sans-serif;
@@ -80,8 +88,11 @@ h2 {
     width: 80%;
     margin: 30px auto;
     margin-top: 80px;
+    
+
 }
 #boton {
+    color: black;
     text-align: center;
     font-size: 15px;
     font-family: "Merriweather Sans", sans-serif;
@@ -91,7 +102,8 @@ h2 {
     padding: 16px; 
     border-radius: 35px 35px 35px 35px;  
     border: 3px solid black; 
-    width: 70%;
+    width: 75%;
     margin: 23px auto;
-    display: block;
+    cursor: pointer;
+    
 }
