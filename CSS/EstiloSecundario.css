@@ -17,26 +17,37 @@ body {
 .TituloPrincipal {
     font-family: "Wix Madefor Text", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 600;
     font-style: normal;
-    font-size: 40px;
-    padding: 20%; 
-    border-radius: 10px;
-    border: 5px solid black; 
-    width: 70%;
-    margin: 20px auto;
+    font-size: 50px;
+    background-color: white;
+    width: 95%;
+    margin: 30px auto;
+    height: auto;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(55, 55, 55);
+    border-radius: 15px;
   }
+
+#Tipos {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    }
 
   #Contexto {
     justify-content: center;
-    background-color: #ddddbb;
+    background-color: #e3e3c0;
     align-items: center;
     padding: 15px;
     border-style: solid;
-    border-width: 5px;
+    border-width: 4px;
     border-color: rgb(0, 0, 0);
-    border-radius: 30px;
-    width: 80%;
+    border-radius: 40px;
+    width: 70%;
     margin: auto;
     height: auto;
     font-family: "Wix Madefor Text", sans-serif;
@@ -48,17 +59,16 @@ body {
 }
 
 h2 {
-    text-decoration: none;
     text-align: center;
     font-size: 30px;
-    font-family: "Merriweather Sans", sans-serif;
-    font-weight: 600;
-    background-color: #f49237; 
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    background-color: #C4E6FF; 
     padding: 30px; 
-    border-radius: 35px 35px 35px 35px;  
-    border: 5px solid black; 
     height: auto;
-    width: 70%;
-    margin: 20px auto;
-    margin-top: 70px;
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
 }
