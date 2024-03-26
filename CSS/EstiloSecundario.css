@@ -41,7 +41,7 @@ body {
     font-style: normal;
     }
 
-  #Contexto {
+#Contexto {
     justify-content: center;
     background-color: #e3e3c0;
     align-items: center;
@@ -70,6 +70,7 @@ h2 {
     background-color: #C4E6FF;
     height: 70px;
     align-content: center;
+    border-top: 5px solid black;
 }
 
 .Test {
@@ -86,25 +87,37 @@ h2 {
     border-radius: 15px;
     border:2px solid #fff;
     height: auto 350px;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   .box1 h3{
     color: aliceblue;
     font-size:auto;
     text-align: center;
+    font-size: 3.3vw;
     margin-top: 10px;
     padding: 5px;
+    margin-bottom: -10px;
 
   }
-  @media (max-width: 700px) {
-    .Test {
-      grid-template-columns: minmax(100px, 80%);
-    }
-  }
+  
 
+.Texto {
+    font-size: 1.4vw;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .fotoFuncionamiento img {
-    width: 70%;
-    height: 30%;
+    width: 73%;
+    height: 35%;
     align-items: center;
 }
 
@@ -117,16 +130,51 @@ h2 {
 #CuerpoEntero {
   background-color: white;
   margin: auto;
-  width: 90%;
-  height: 500px;
+  width: 80%;
+  height: auto;
   align-items: center;
+  border-left: 5px solid black;
+  border-bottom:5px solid black;
+  border-right:5px solid black;
+  border-radius: 0px 0px 20px 20px;
+  padding-bottom: 20px;
+
+}
+
+.SubSubTitulo {
+  font-size: 1.6vw;
+  color: #262626;
+}
+
+@media (max-width: 700px) {
+  .Test {
+    grid-template-columns: minmax(100px, 80%);
+  }
+  .box1 {
+    height: auto 350px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Texto {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 700px) {
+  .SubTitulo {
+    font-size: 3vw;
+  }
 }
 
 @media (max-width: 700px) {
   #CuerpoEntero {
-    height: 850px;
+    height: 97%;
+  }
+  .Texto {
+    font-size: 3.5vw;
   }
 }
+
 
 
 .Pre {
