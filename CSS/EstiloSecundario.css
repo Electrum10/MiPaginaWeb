@@ -39,7 +39,6 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    text-align: center;
     }
 
   #Contexto {
@@ -63,51 +62,74 @@ body {
 }
 
 h2 {
-    text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Wix Madefor Text", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    background-color: #C4E6FF; 
-    padding: 30px; 
-    height: auto;
-    width: 85%;
-    margin: auto;
-    margin-top: 60px;
+    background-color: #C4E6FF;
+    height: 70px;
+    align-content: center;
 }
 
 .Test {
-    margin: 2rem 0 0 0;
+    margin: 30px 0 0 0;
     display: grid;
     justify-content: center;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 300px 300px;
-    gap:30px ;
-    border-radius:20px ;
+    grid-template-columns: 45% 45%;
+    gap: 15px;
+    border-radius:10px;
 }
 
 .box1 {
     background: #2e3785;
     border-radius: 15px;
     border:2px solid #fff;
+    height: auto 350px;
   }
 
-  .box1 p{
+  .box1 h3{
     color: aliceblue;
-    font-size:2.3rem;
+    font-size:auto;
     text-align: center;
-    margin: 0;
+    margin-top: 10px;
     padding: 5px;
+
   }
   @media (max-width: 700px) {
     .Test {
       grid-template-columns: minmax(100px, 80%);
-      height: 80%;
     }
   }
 
-.foto img {
-    width: 70%; /* La imagen ocupa el 100% del ancho del contenedor */
-    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+.fotoFuncionamiento img {
+    width: 70%;
+    height: 30%;
+    align-items: center;
 }
+
+.Foto {
+  border: 3px solid black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center; 
+}
+#CuerpoEntero {
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  height: 500px;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  #CuerpoEntero {
+    height: 850px;
+  }
+}
+
+
+.Pre {
+  font-size: 6px;
+}
+
