@@ -109,11 +109,13 @@ h2 {
   
 
 .Texto {
+  font-weight: 500;
     font-size: 1.4vw;
     text-align: center;
     margin-top: 7%;
     margin-left: 5%;
     margin-right: 5%;
+    color: rgb(228, 228, 228);
 }
 .fotoFuncionamiento img {
     width: 73%;
@@ -148,6 +150,10 @@ h2 {
 .SubSubTitulo {
   font-size: 1.6vw;
   color: #262626;
+}
+
+.EspaciadorAbajo {
+  margin-bottom: 60px;
 }
 
 
@@ -209,9 +215,6 @@ h2 {
     font-size: 8vw;
   }
 }
-
-
-
 
 .Pre {
   font-size: 6px;
