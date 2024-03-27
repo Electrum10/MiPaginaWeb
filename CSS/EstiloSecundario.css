@@ -62,13 +62,13 @@ body {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 3vw;
     font-family: "Wix Madefor Text", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
     background-color: #C4E6FF;
-    height: 70px;
+    height: 100px;
     align-content: center;
     border-top: 5px solid black;
 }
@@ -93,6 +93,7 @@ h2 {
     font-style: normal;
     justify-content: center;
     align-items: center;
+    align-self: center auto;
     
   }
 
@@ -100,7 +101,6 @@ h2 {
     color: aliceblue;
     font-size:auto;
     text-align: center;
-    font-size: 3.3vw;
     margin-top: 10px;
     padding: 5px;
     margin-bottom: -10px;
@@ -141,39 +141,75 @@ h2 {
 
 }
 
+.SubTitulo {
+  font-size: 2vw;
+}
+
 .SubSubTitulo {
   font-size: 1.6vw;
   color: #262626;
 }
 
-@media (max-width: 700px) {
-  .Test {
-    grid-template-columns: minmax(100px, 80%);
-  }
-  .box1 {
-    height: auto 350px;
-  }
-}
 
 @media (max-width: 1200px) {
   .Texto {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
-}
-@media (max-width: 700px) {
   .SubTitulo {
     font-size: 3vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 900px) {
+  h2 {
+    font-size: 5vw;
   }
 }
 
 @media (max-width: 700px) {
+  .SubTitulo {
+    font-size: 6vw;
+  }
   #CuerpoEntero {
     height: 97%;
   }
   .Texto {
     font-size: 3.5vw;
   }
+  .Test {
+    grid-template-columns: minmax(100px, 80%);
+  }
+  .box1 {
+    height: auto 350px;
+  }
+  .SubSubTitulo {
+    font-size: 2vw;
+  }
+  h2 {
+    height: 12vw;
+    font-size: 6vw;
+  }
 }
+
+
+@media (max-width: 535px) {
+  .SubSubTitulo {
+    font-size: 4vw;
+  }
+  h2 {
+    height: 14vw;
+  }
+}
+
+@media (max-width: 450px) {
+  h2 {
+    font-size: 8vw;
+  }
+}
+
 
 
 
