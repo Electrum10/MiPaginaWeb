@@ -13,10 +13,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Navegacion.css">
 </head>
 </html>
 
 <body>
+    <header>
+        <a href="index.html"><img src="../images/FotoMia.jpg" alt="Mi preciosa cara" class="MenuFoto"></a>
+        <button class="abrir-menu" id="abrir" title="Botón Para abrir el menú"><i class="fa-solid fa-bars"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar" title="Botón para cerrar el menú"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-list">
+                <li><a href="#" class="lista">¿Quien soy?</a></li>
+                <li><a href="equipo.html" class="lista">Equipo Fotográfico</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
 
     <div id="Inicio">   
         <img src="../images/FotoMia.jpg" alt="Mi preciosa cara :D" class="ImagenPrincipal">
@@ -131,5 +145,7 @@
         <p>Contacta conmigo por mi Instagram Principal</p>
     </div></a>
 </div>
+
+<script src="../JS/menu.js"></script>
 </body>
 </html> 
