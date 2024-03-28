@@ -1,3 +1,4 @@
+
 #Inicio {
     text-decoration: none;
     color: black;
@@ -6,15 +7,36 @@
     text-align: center;
     padding: 40px;
     size: 20px;
+    text-align: center;
 }
 
 body {
     text-decoration: none;
     background-color: #d8dddb;
-    text-align: center;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+#Disfruta {
+    justify-content: center;
+    background-color: #e1985f;
+    align-items: center;
+    padding: 15px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
 }
 
 .TituloPrincipal {
@@ -25,13 +47,16 @@ body {
     font-size: 50px;
     background-color: white;
     width: 95%;
-    margin: 30px auto;
+    margin: auto;
+    margin-bottom: 30px;
     height: auto;
     box-sizing: border-box;
     border-style: solid;
     border-width: 4px;
     border-color: rgb(55, 55, 55);
     border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
   }
 
 #Tipos {
@@ -39,6 +64,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    text-align: center;
     }
 
 #Contexto {
@@ -59,6 +85,7 @@ body {
     font-style: normal;
     font-size: 20px;
     color:rgb(0, 0, 0);
+    text-align: center;
 }
 
 h2 {
@@ -71,6 +98,7 @@ h2 {
     height: 100px;
     align-content: center;
     border-top: 5px solid black;
+    text-align: center;
 }
 
 .Test {
@@ -80,12 +108,13 @@ h2 {
     grid-template-columns: 45% 45%;
     gap: 15px;
     border-radius:10px;
+    text-align: center;
 }
 
 .box1 {
     background: #2e3785;
     border-radius: 15px;
-    border:2px solid #fff;
+    border:3px solid #626262;
     height: auto 350px;
     font-family: "Wix Madefor Text", sans-serif;
     font-optical-sizing: auto;
@@ -116,6 +145,10 @@ h2 {
     margin-left: 5%;
     margin-right: 5%;
     color: rgb(228, 228, 228);
+    /* Tipo de Letra*/
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .fotoFuncionamiento img {
     width: 73%;
@@ -130,7 +163,7 @@ h2 {
   align-items: center; 
 }
 #CuerpoEntero {
-  background-color: white;
+  background-color: rgb(144, 144, 144);
   margin: auto;
   width: 80%;
   height: auto;
@@ -140,7 +173,6 @@ h2 {
   border-right:5px solid black;
   border-radius: 0px 0px 20px 20px;
   padding-bottom: 20px;
-
 }
 
 .SubTitulo {
@@ -156,6 +188,9 @@ h2 {
   margin-bottom: 60px;
 }
 
+.Espaciador {
+  padding-top:30px ;
+}
 
 @media (max-width: 1200px) {
   .Texto {
