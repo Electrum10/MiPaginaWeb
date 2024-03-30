@@ -15,10 +15,12 @@ li {
     display: inline-block;
     padding: 10px 10px;
     cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-weight: 600;
     font-style: none;
+    letter-spacing: -0.03rem;
+    align-items: left;
 }
 
 .lista {
