@@ -118,5 +118,19 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 34px;
+  font-size: 7.7vw;
+  background: white;
+  width: 75%;
+  margin: auto;
+  margin-bottom:30px;
+  margin-top: 30px;
+  border-radius: 9px;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 4.9vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
