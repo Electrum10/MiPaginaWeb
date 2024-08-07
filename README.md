@@ -1,21 +1,46 @@
-## ¡Bienvenidos a mi Página Web!
+## Prototipo de Portafolio
 
-¡Hey, que pasa gente!
+Que pasa gente.
 
-Bienvenidos a mi primer proyecto de GitHub. Aquí encontrarás todos los archivos que he utilizado para crear mi propia pagina web desde cero 🚀
+Antes de crear el portafolio que tengo actualmente, hice unas cuantas pruebas con diferentes estructuras para ver como quedaba.
 
+Esta es una de ellas.
 
-### 🤔 ¿De que va mi pagina web? 🤔
+Me basé bastante con linktr.ee.
 
-Mi pagina web consiste en un portafolios donde pongo todos mis proyectos y recursos, para así tener todo organizado y a la vez tener una pagina donde la gente me pueda conocer.
+Ese estilo de botones gigantes donde se te envía a otros lugares.
 
-### 😜 Qualquier ayuda se agradece 😜
-Si tienes algo que aportar hacia el portafolio, soy todo oidos, estoy abierto a ideas creativas.
+Y al principio me gustaba, pero después me di cuenta de que no podia hacer nada mas que linkear.
 
-### 📲 Contacto 📲
-Me quieres recordar lo guapo que soy? Puedes contactarme a través de mi página web o por mis redes sociales. Estoy siempre abierto a nuevas conexiones y amistades.
+No podia hacer un portafolio como dios manda.
 
-¡Gracias por visitar mi repositorio!
+Pero le había metido mucho esfuerzo.
 
-Saludos.
-Jan Gangolells Maldonado.
+Creo que le metí como 25 horas o algo así.
+
+Es uno de mis primeros proyectos con HTML y CSS.
+
+Me da pena borrarlo con los huevos que le metí.
+
+Así que mejor lo conservo aquí como ejemplo de lo malo que era a principios de 2024.
+
+<hr>
+
+No te esperes gran cosa.
+
+No esta del todo terminado.
+
+Lo podría terminar, si.
+
+Pero me da mucha pereza ahora mismo.
+
+A lo mejor algún dia en hora de sociales del insti lo termino, pero tengo mis dudas.
+
+Y ![si quieres comparar el prototipo con el real, haz clic aquí](https://electrum10.github.io)
+
+Así verás mejor la diferencia.
+
+<hr>
+
+Venga va, un abrazo y hasta la proxima.
+AkiDev - FrontEnd Developer
